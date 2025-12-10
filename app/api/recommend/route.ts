@@ -2,7 +2,7 @@
 
 import { NextRequest, NextResponse } from "next/server";
 
-const FASTAPI_URL = "http://127.0.0.1:8000/recommend"; // your FastAPI URL
+const FASTAPI_URL = "http://13.60.79.156:8000/recommend"; // your FastAPI URL
 
 export async function POST(req: NextRequest) {
   try {
